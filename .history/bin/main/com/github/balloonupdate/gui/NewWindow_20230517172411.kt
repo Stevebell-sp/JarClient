@@ -97,7 +97,7 @@ class NewWindow(width: Int, height: Int)
     /**
      * 销毁窗口
      */
-    fun destroy() = window.dispose() { isVisible = false }
+    fun destroy() = window.dispose()
 
     /**
      * 状态栏文本标签的值
